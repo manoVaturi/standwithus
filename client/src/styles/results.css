@@ -1,0 +1,85 @@
+* {
+	font-family: 'Fredoka', sans-serif;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	padding: 3em 4em;
+	gap: 1em;
+}
+.container-result {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+.container .flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .flex span {
+	font-size: 1.4em;
+}
+
+.title {
+	padding-top: 30px;
+}
+
+.sign_btn {
+	background-color: white;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	padding: 5px;
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 132.6%;
+}
+
+.share {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 132.6%;
+	/* identical to box height, or 33px */
+
+	text-align: center;
+	letter-spacing: -0.01em;
+	text-decoration-line: underline;
+
+	color: #2e3192;
+}
+
+.social_icons {
+	width: 50px;
+}
+
+.sponser_logo {
+	width: 100px;
+	height: 85px;
+}
+
+.title-box {
+	margin: 20px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 132.6%;
+	letter-spacing: -0.01em;
+}
+
+.slide-box {
+	margin: 50px 0;
+}
+
+.center {
+	margin-top: 5px;
+}

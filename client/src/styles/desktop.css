@@ -1,0 +1,13 @@
+.app {
+	display: block;
+}
+.desktop-main {
+	width: 200px !important;
+	height: 300px;
+	object-fit: cover !important;
+}
+
+.img-desktop {
+	max-width: 100vw;
+	height: auto;
+}

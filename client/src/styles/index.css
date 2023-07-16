@@ -1,0 +1,177 @@
+html,
+body,
+#root {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#root {
+	position: absolute;
+	top: 0;
+}
+* {
+	font-weight: 600;
+	font-family: 'Fredoka', sans-serif !important;
+}
+.logo-img {
+	max-width: 150px;
+}
+.logo > img {
+	width: 100%;
+}
+
+.app {
+	height: 100%;
+}
+.main {
+	position: absolute;
+	top: 5%;
+	width: 90%;
+	height: 90%;
+	padding: 0 20px;
+	background: #ffffff;
+	box-shadow: inset 0px -3px 23px rgba(44, 54, 143, 0.71);
+	border-radius: 21px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	/* position: relative; */
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+/* components */
+h1 {
+	font-family: 'Fredoka', sans-serif;
+
+	text-align: center;
+}
+.title {
+	margin: 5px 0;
+}
+.text {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 38px;
+	/* or 224% */
+
+	text-align: center;
+	letter-spacing: -0.01em;
+}
+
+.btn {
+	position: relative;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-decoration: none;
+	letter-spacing: -0.01em;
+
+	color: #ffffff;
+}
+.text-btn {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 17px;
+}
+.questions {
+	height: 100%;
+	width: 100%;
+}
+.questions-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 90%;
+	text-align: center;
+}
+.question-text {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 138.97%;
+	padding: 0 20px;
+}
+.options {
+	padding: 10px 0px;
+}
+.answer-img {
+	max-width: 150px;
+}
+.answers {
+	list-style-type: none;
+	box-sizing: border-box;
+	text-align: right;
+	left: 15px;
+	top: 385px;
+	padding: 10px;
+	margin: 15px;
+	background: #ffffff;
+	border: 1px solid #2c368f;
+	border-radius: 31px;
+	transition: 0.5s;
+}
+.right-answers {
+	background: #00ff29;
+}
+.right-answers li label {
+	color: black !important;
+}
+.wrong-answers {
+	background: #ff0000;
+}
+
+.wrong-answers li label {
+	color: white !important;
+}
+ul li input[type='radio'] {
+	position: absolute;
+	visibility: hidden;
+}
+.logo {
+	width: 100%;
+}
+.logo > img {
+	width: 100%;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.react-slideshow-container .default-nav {
+	display: none !important;
+}
+
+.loading-page {
+	height: 100%;
+	padding: 40px 20px;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.loading-page-title {
+	font-family: 'Fredoka', sans-serif;
+	font-size: 26px;
+	line-height: 31px;
+	font-weight: 600;
+}
+
+.loading-page-text {
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 31px;
+
+	letter-spacing: -0.01em;
+}
