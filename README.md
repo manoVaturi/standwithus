@@ -4,23 +4,28 @@ This repository contains the code for a website that allows users to take a shor
 
 Features
 
-The website features a short quiz that tests users' knowledge of Israel and the Middle East.
+1.  The website features a short quiz that tests users' knowledge of Israel and the Middle East.
 
-Users who answer the quiz correctly are entered into a lottery to win a prize.
+2.  Users who answer the quiz correctly are entered into a lottery to win a prize.
 
-The website also features a blog section that provides information about StandWithUs and its work.
+3.  The website also features a blog section that provides information about StandWithUs and its work.
 
 Technologies
 
-HTML CSS ReactJS ExpressJS Node.js Installation To install the website, you will need to have the following installed:
+1.  HTML
+2.  CSS
+3.  ReactJS
+4.  ExpressJS
+5.  Node.js
+6.  Installation
+   
+    To install the website, you will need to have the following installed:
 
 Node.js NPM Once you have these installed, you can install the website by running the following command:
 
 npm install
 
 Usage To run the website, you can run the following command:
-
-npm run start
 
 The website will then be accessible at http://localhost:3000.
 
